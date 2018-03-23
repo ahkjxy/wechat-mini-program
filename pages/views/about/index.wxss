@@ -1,0 +1,17 @@
+.about-logo {
+	text-align: center;
+	padding: 50rpx 0;
+}
+.about-logo text {
+  display: block;
+	font-size: 32rpx;
+	color: #333333;
+}
+.about-content {
+	padding: 0 50rpx 120rpx;
+
+}
+.about-content text {
+	font-size: 28rpx;
+	color: #555555;
+}

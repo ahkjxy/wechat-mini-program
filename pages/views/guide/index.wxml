@@ -1,0 +1,34 @@
+<view class='guide-box'>
+  <view class="guide-item">
+        <view class='h3'>如何成为推手</view>
+        <view class='p'><text>1</text>点击【个人中心】，授权微信登录优惠推手。</view>
+        <image lazy-load="true" src="/../assets/img/guide_01.png" mode="widthFix"></image>
+        <view class='p'><text>2</text>点击头像进入个人资料编辑页面，填写手机号，发送验证码，绑定手机号后即可成功注册优惠推手。</view>
+        <image lazy-load="true" src="/../assets/img/guide_02.png" mode="widthFix"></image>
+        <view class='p'><text>3</text>绑定后的手机号也可进行解绑操作，手机号将会是您优惠推手的唯一账号。</view>
+      </view>
+      <view class="guide-item">
+        <view class='h3'>如何分享商品</view>
+        <view class='p'><text>1</text>点击【分享赚钱】，进入商品列表页面，选择您想分享给好友的商品，点击“分享赚钱”按钮。</view>
+        <image lazy-load="true" src="/../assets/img/guide_03.png" mode="widthFix"></image>
+        <view class='p'><text>2</text>在弹出的分享弹窗上，您可以选择分享商品海报或分享商品链接，然后通过朋友圈、微信群等方式分享给好友，好友通过您的海报或链接产生购买后，您将会拿到相应比例的佣金。</view>
+        <image lazy-load="true" src="/../assets/img/guide_04.png" mode="widthFix"></image>
+      </view>
+      <view class="guide-item">
+        <view class='h3'>如何查看收益</view>
+        <view class='p'><text>1</text>     点击【推广业绩】，您将会看到您的订单所得佣金，订单所发生的时间、点击、订单量和具体佣金。</view>
+        <image src="/../assets/img/guide_05.png" mode="widthFix"></image>
+        <view class='p'><text>2</text>点击【订单列表】，您将会看到您近期的所有订单信息，并且可以根据下单时间、结算时间、商家和订单编号进行筛选。</view>
+        <image lazy-load="true" src="/../assets/img/guide_06.png" mode="widthFix"></image>
+      </view>
+      <view class="guide-item">
+        <view class='h3'>如何提现</view>
+        <view class='p'><text>1</text>进入【个人中心】——【我的收入】，点击立即提现按钮。</view>
+        <image lazy-load="true" src="/../assets/img/guide_07.png" mode="widthFix"></image>
+        <view class='p'><text>2</text>首次提现须验证并绑定您的个人手机号。</view>
+        <image lazy-load="true" src="/../assets/img/guide_08.png" mode="widthFix"></image>
+        <view class='p'><text>3</text>添加您的支付宝或银行卡信息后，单笔提现金额最低￥100。</view>
+        <view class='p'><text>4</text>提取已生效金额即可，具体到账时间根据您的收款方式会有所不同。</view>
+        <image lazy-load="true" src="/../assets/img/guide_09.png" mode="widthFix"></image>
+      </view>
+</view>

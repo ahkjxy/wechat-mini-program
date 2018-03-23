@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/views/home/index",
+    "pages/views/search/index",
+    "pages/views/my/center/index",
+    "pages/views/my/edit/index",
+    "pages/views/guide/index",
+    "pages/views/about/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF5A5D",
+    "navigationBarTitleText": "小布点优惠",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#FF5A5D",
+    "list": [
+      {
+        "pagePath": "pages/views/home/index",
+        "text": "商品",
+        "iconPath": "/assets/img/home.png",
+        "selectedIconPath": "/assets/img/home_selected.png"
+      },
+      {
+        "pagePath": "pages/views/my/center/index",
+        "text": "我的",
+        "iconPath": "/assets/img/my.png",
+        "selectedIconPath": "/assets/img/my_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

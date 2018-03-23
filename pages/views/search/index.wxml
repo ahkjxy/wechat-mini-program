@@ -1,0 +1,53 @@
+<view class="page">
+  <view class="page__bd header-fixed">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="还是搜索一下吧!~" value="{{ key }}" bindinput="searchKey" focus="true" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="item-list" wx:if="{{ key }}">
+    <view class="weui-panel__bd item-list__item">
+      <view class="weui-media-box weui-media-box_appmsg" wx:for="{{ list }}" wx:key="{{ item.id }}">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ item.imageurl }}" mode="aspectFit" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">{{ item.name }}</view>
+          <view class="ps-price">
+            {{ item.curLogo }}{{ item.saleprice }}
+            <text class="span">{{ item.curLogo }}{{ item.price }}</text>
+          </view>
+          <view class="weui-media-box__desc">
+              <text wx:if="{{ item.commission_expected > 0 }}">  
+            返佣: {{ item.curLogo }}{{ item.commission_expected }} ({{ item.commission_rate }}%)
+              </text>
+          </view>
+          <button class="weui-btn share-btn" type="primary">分享赚钱</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view wx:else class='search-tips'>
+    <view class="weui-msg__desc">请键入内容搜索~~~</view>
+  </view>
+
+  <view class="ui-loading">
+    <view class="weui-loadmore" wx:if="{{ loading }}">
+      <view class="weui-loading"></view>
+      <view class="weui-loadmore__tips">正在加载</view>
+    </view>
+    <view class="weui-loadmore weui-loadmore_line" hidden wx:if="{{ empty }}">
+      <view class="weui-loadmore__tips weui-loadmore__tips_in-line">暂无数据      </view>
+    </view>
+    <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot" wx:if="{{ !more }}">
+      <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+    </view>
+  </view>
+
+</view>

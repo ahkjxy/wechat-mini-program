@@ -1,0 +1,69 @@
+{
+	"description": "小布点优惠",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.90",
+	"appid": "wx96e2347b2500ea0e",
+	"projectname": "app",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "home",
+					"pathName": "pages/views/home/index",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/views/search/index",
+					"query": "",
+					"scene": "1005"
+				},
+				{
+					"id": -1,
+					"name": "my_center",
+					"pathName": "pages/views/my/center/index",
+					"query": "",
+					"scene": "1005"
+				},
+				{
+					"id": -1,
+					"name": "guide",
+					"pathName": "pages/views/guide/index",
+					"query": "",
+					"scene": "1005"
+				},
+				{
+					"id": -1,
+					"name": "about",
+					"pathName": "pages/views/about/index",
+					"query": "",
+					"scene": "1005"
+				}
+			]
+		}
+	}
+}

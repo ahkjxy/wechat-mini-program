@@ -1,0 +1,9 @@
+<view class='app'>
+  <view class="about-logo">
+    <image src="/../assets/img/logo.svg" mode="widthFix" style='width: 320rpx;'></image>
+      <text>优惠推手</text>
+    </view>
+      <view class="about-content">
+        <text>优惠推手，是一款基于社交电商的分享赚钱神器。加入优惠推手，可以随时随地一键分享成千上万的优质商品。用户点击推手分享的链接，期间用户产生任意消费，推手可从中获取高额返利。</text>
+      </view>
+</view>

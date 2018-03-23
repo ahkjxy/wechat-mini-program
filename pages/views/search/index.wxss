@@ -1,0 +1,8 @@
+@import "../../views/home/index.wxss";
+page {
+  padding-top: 95rpx;
+}
+.search-tips {
+  text-align: center;
+  padding-top: 15rpx;
+}
